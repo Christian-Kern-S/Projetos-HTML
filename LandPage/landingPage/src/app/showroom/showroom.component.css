@@ -1,0 +1,24 @@
+.title-showroom{
+  font-family: 'Shadows Into Light', cursive;
+  color: white;
+  font-size: 64px;
+  padding: 64px;
+}
+.imgcarousel{
+  size: 100px;
+  justify-content: center;
+  display: block;
+  object-fit: cover;
+
+  transition-property: opacity;
+  transition-duration: 0.3s;
+}
+
+
+
+.section{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}

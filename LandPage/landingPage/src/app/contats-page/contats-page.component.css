@@ -1,0 +1,133 @@
+
+.title-contacts{
+  font-family: 'Shadows Into Light', cursive;
+  font-weight: 400;
+  font-size: 64px;
+  color: white;
+}
+.subtitle-contacts{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: white;
+}
+
+.conteudo-contacts{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.conteudoSecundario-escrita{
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.conteudoSecundario-img{
+  height: 220px;
+  margin-top: 30px;
+}
+
+
+
+.info-contacts-title{
+
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: white;
+  margin-left: 12%;
+  padding-top: 20px;
+
+}
+.info-contacts{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: white;
+  margin-left: 13%;
+}
+.info-contacts-email{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: white;
+  margin-left: 12%;
+  padding-top: 20px;
+}
+.follow-contacts-title{
+  border-top: 0.4px solid goldenrod;
+  font-family: 'Shadows Into Light', cursive;
+  font-weight: 400;
+  font-size: 30px;
+  color: white;
+  padding-bottom: 20px;
+  padding-top: 40px;
+}
+.follow-contacts{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: white;
+  padding-bottom: 10px;
+  display:flex;
+  text-decoration: none;
+}
+.contacts{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 48px;
+}
+
+/* Agora, colocando um degradê */
+.gradient:hover {
+  /* Set the background of
+      the text  */
+  background:
+      linear-gradient(to right,
+      #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bb1a88 100%);
+  display: inline-block;
+
+  /* Clip the background upto
+      the text  */
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  /* Set the color of the text
+      to transparent  */
+  color: transparent;
+
+}
+
+.follow-contacts-face:hover{
+
+  color: #5d8cf3;
+}
+
+.bi-whatsapp{
+  background: rgb(52, 175, 35);
+  color: white;
+  margin-right:5px ;
+  padding-top:2px;
+  padding-left: 4px;
+  padding-right: 3px;
+  border-radius: 3px;
+}
+.bi-send-fill{
+  color: #5d8cf3;
+  margin-right:5px ;
+  padding-top:2px;
+  padding-left: 4px;
+  padding-right: 3px;
+  border-radius: 3px;
+}
+.duvidas-contacts:hover{
+  color: rgba(218, 165, 32, 0.79);
+  cursor: pointer;
+}
+.all-contacts{
+ cursor:auto;
+}

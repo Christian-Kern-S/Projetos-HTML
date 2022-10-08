@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <title>Lyra - Semijoias</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Lyra Semijoias, aumentando seu brilho, combinando com sua beleza! ">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <script>
+    function clickAccordion(t){
+      var pai = document.getElementsByClassName('titulo')[t].parentElement;
+      var img = document.getElementsByClassName('icon')[t];
+      var conteudo = pai.lastElementChild.classList.contains('hide');
+
+      if (conteudo == true) {
+        pai.lastElementChild.className = "show"
+        img.style.transform = "rotate("+45+"deg)";
+      } else {
+        pai.lastElementChild.className = "hide";
+        img.style.transform = "rotate("+0+"deg)";
+      }
+    }
+  </script>
+</head>
+<body>
+  <app-root></app-root>
+</body>
+</html>
+

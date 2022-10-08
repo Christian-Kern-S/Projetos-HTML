@@ -1,0 +1,6 @@
+{
+    "editor.showFoldingControls": "mouseover",
+    "debug.focusWindowOnBreak": true,
+    "debug.focusEditorOnBreak": true,
+    "notebook.showFoldingControls": "mouseover"
+}
